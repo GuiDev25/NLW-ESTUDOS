@@ -7,6 +7,10 @@
     color:#fff;
     font-family: 'Poppins', sans-serif;
 }
+:root{
+    font-size: 16px;
+}
+
 ::-webkit-scrollbar{
     width: 6px;
 }
@@ -121,4 +125,25 @@ aside span{
     font-size: 12px;
     color: #9e9ea0;
 }
+@media (max-width: 768px){
+  :root {
+    font-size: 14px;
+  }
 
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+    grid-template-areas: 
+    "profile"
+    "timeline";
+  } 
+
+  aside {
+    border-right: none;
+    padding: 32px 12px;
+  }
+
+  nav {
+    overflow-y: visible;
+    padding: 22px;
+  }
