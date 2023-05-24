@@ -46,7 +46,7 @@ nav{
     grid-area: timeline;
     padding: 64px;
     overflow-y: scroll;
-    animation: entrada 1s ease;
+    animation: entrada 1.5s ease;
 }
 .memoria{
     display: flex;
@@ -118,7 +118,7 @@ aside{
     background-size: auto 100%;
 }
 aside *{
-    animation: entrada 1s ease;
+    animation: entrada 1.5s ease;
 }
 aside img:nth-child(2){
     width: 160px;
